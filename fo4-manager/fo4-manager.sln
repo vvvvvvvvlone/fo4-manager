@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "fo4-manager", "fo4-manager\fo4-manager.pyproj", "{9C1B0777-E6B6-4C3B-87B5-5A0E746A25C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1B0777-E6B6-4C3B-87B5-5A0E746A25C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1B0777-E6B6-4C3B-87B5-5A0E746A25C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D843AF-2CEB-43B8-898B-47A694B3512D}
+	EndGlobalSection
+EndGlobal

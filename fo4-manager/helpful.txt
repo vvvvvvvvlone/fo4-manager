@@ -1,0 +1,80 @@
+'''
+	json:
+	<script>
+		var regionConfigGlobal = 
+		{
+			"locale":"ru",
+			"lang":"ru",
+			"supportLangId":"2",
+			"GA_UID":"UA-53999337-22",
+			"YANDEX_ID":"49641595",
+			"client_id":"5B1EB814FEC8C",
+			"project_id":"223",
+			"ecommpay":false,
+			"gc_url":"https://gamecenter.101xp.com"
+		}
+	</script>
+
+	login post body:
+	{
+		"username":"",
+		"password":"",
+		"remember":false,
+		"client_id":"",
+		"locale":"ru"
+	}
+
+	login post response:
+	{
+		"status":"success",
+		"access":
+		{
+			"token_type":"Bearer",
+			"id":57497704,
+			"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1QjFFQjgxNEZFQzhDIiwianRpIjoiOWYxNjMwYjE0ZWU1MGFlMzBmYTZjN2JlNmEyZWJhMzk2OTRmNjNlZTI5ZWM1NWM1YmQzMGY2NDc0YWU2NzZjMTRkNWE2OWJmZTUyODk4MDEiLCJpYXQiOjE2Mzg1NTc0NDMsIm5iZiI6MTYzODU1NzQ0MywiZXhwIjoxNjM4NTY0NjQzLCJzdWIiOiI1NzQ5NzcwNCIsInNjb3BlcyI6W10sImV4dHJhX3BhcmFtcyI6W119.B_hgTADPI3XHMRJHLLhMD2SzzIKpD8F6VBo1Ix20TutGL9lx3fyliGwI7zATppGWUwLPZcfF8TZREiIeBepvUUc3HPvjzuoADE-utz4HHMSDEno2HK9OFRx6zAgDUaOMiu5s_CtzJLL8BIqj81nHv-58I5NnUMPISh0bnsdtqpOeg4Q50ZYR0eGWu7AhBq4dBrkpzLM2FUSATaeqRuCAhoZpiwD8mpAPcCZWBpYKz9SZmXIG36UmA8PAPPOf6H67BvG-8vF3RgSNKpSu1lLgg3mc0R_YJC0KKe6Vn8nwUEuI3sadWfV2sabe-tJrvb-FBfGUViiwVd2YDP2RqiqYGj6cxTIvZVv4-8DoGu09LVwQcRE1NkzI8DHlQfjoGNuW4PfSV80lFhCtWJ7XPwIjzShxUP8kfdaL7uyg7jb7w6Y-2FF38ykEvjWIgkSwWfmvO-BxTNlSv_DYQFvKB46B7tHyu1672-OWd2h36X3S-kISpRj5wVGehNgMSqU4ZA2_AIgg9Yp4vTGqvWstJ7U2yJTfvVC8dJMAeimW6I-aSPyk9EAvi4KlKqRVrOMOw-9mm9OxvKdKlFYF5SmEHdWK_23AMvLlCZig-SpUzCvjzw_b9ci5UPS-1zyhuhB1l-MKD1uAiJhwioIrPz_pyiUi7yayqpNjCxnu2Ng8SbF59E8",
+			"expires":1638564643,
+			"expires_in":7200,
+			"refresh_token":"def5020011a66ff60e1143c6d3db066713af03b25d244a427005c1ba5d7c69b13b914d864a50e292ba28f8b9fc562b07c5a9b3f30b33ffcb7d3f6dedf26538d0804cece355afa12d3c630cad8cf52643a4e4346b5c80396977471d7727e230863cfe08b1344edb003f63ac6349b35c24d4323e1cdded1e6c005955c02d5d87fcfb8dfb6cbbc3ed57ef4f7757d903cd58bb5b651536f806f48f821a88fb5a457084e65c0e4dde0ea6cc99932a25959fa03d8ae847af4c93fbf07df69550e303758e7a9a662380abfccc448701d74e03cbcfb6b4ca7f327e14728a0f0a42762a46d4b74f10e686e457d0a19415e007fd4871609555cb0b71c5890cb7fd287aca8dfb5ce08ff79f24faecafc987c9a9ca56c580e5f103989607508eeb71f15aaf059e6265606eaf34dd96500196b58085bb7571ac81cd312e6a66cffd4f3903d3071c4e43857e70b4efa2cbefef2d37efc71a4e1163c513eb821c3c4658fe34ba3ceb57073ee0feba812e19d46d8ab09fb9de94f1eabf565bee8f7c49f142f47a79364adae27754",
+			"refresh_expires":1641149444,
+			"refresh_expires_in":2592000
+		}
+	}
+
+	cookie:
+	auth_token
+	refresh_token
+	
+	get account example:
+	{
+		"status":"success",
+		"account":
+		{
+			"id":53780253,
+			"email":"ferma_ferma_2025@mail.ru",
+			"role":"user",
+			"display_name":"nefartit",
+			"first_name":null,
+			"last_name":null,
+			"birth_day":"",
+			"birth_month":0,
+			"birth_year":0,
+			"photo":"",
+			"balance":0,
+			"subscribe":0,
+			"locale":"ru",
+			"country_id":0,
+			"username":"",
+			"email_verified":0,
+			"type":1,
+			"is_agreement_accepted":1,
+			"is_password":1,
+			"registration_date":1630616098,
+			"phone":"",
+			"games":[{"id":"F2551EDDC7A86","name":"FIFA Online 4","alias":"fo4","parent_id":"F2551EDDC7A86","menu_visible":1,"canvas_url":"","custom_url":"","ng_image_icon":"","ng_image_preview":"1639045697_phpMeBACF.jpg","play_button":1,"can_play":0,"last_login":1637933353,"game_time":0}],
+			"settings":{"profile_privacy":1,"payments_privacy":1,"two_factor_auth":0,"email_notifications":"1111111111","account_guard":1,"vip_privacy":1,"chat_add_to_group":1},
+			"not_completed":false,
+			"last_comment_ban":null
+		},
+		"logins":[]
+	}
+'''
